@@ -39,6 +39,9 @@ header {
   justify-self: stretch;
   text-align: center;
 }
+.logo-text {
+  align-items: center;
+}
 
 .nav-ul {
   display: grid;
@@ -142,7 +145,7 @@ a.nav-link:hover {
   line-height: normal;
 }
 
-span {
+.data {
   color: #b4b7c1;
   font-family: Roboto;
   font-size: 13px;
@@ -152,3 +155,27 @@ span {
 }
 
 /* ================Footer=============== */
+
+footer {
+  background-color: #000d1f;
+  color: #fff;
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+
+.footer-block {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.footer-logo {
+  justify-self: center;
+  align-self: center;
+}
+
+.footer-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 80px;
+}

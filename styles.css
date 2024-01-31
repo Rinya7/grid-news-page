@@ -1,0 +1,58 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ваши собственные стили начинаются ниже */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+header {
+  background-color: #000d1f;
+}
+.container {
+  max-width: 1158px;
+  padding: 0px 115px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 240px 3fr;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.header-logo {
+  padding-top: 24px;
+  padding-bottom: 18px;
+  justify-self: stretch;
+  text-align: center;
+}
+
+.nav-ul {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(6, 1fr);
+  align-content: center;
+  justify-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a.nav-link:hover {
+  color: #f2994a; /* Новый цвет текста при наведении курсора */
+}
